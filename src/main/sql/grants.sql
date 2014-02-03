@@ -1,0 +1,2 @@
+GRANT SELECT, INSERT, UPDATE, DELETE ON xwp.* TO 'xwp'@'localhost' IDENTIFIED BY 'pass4xwp';
+GRANT SELECT, INSERT, UPDATE, DELETE ON xwp.* TO 'xwp'@'%' IDENTIFIED BY 'pass4xwp';
